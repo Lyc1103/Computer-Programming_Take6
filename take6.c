@@ -730,7 +730,7 @@ void rule(int32_t os)
 	puts(MAG "In this game, there are 104 numbered cards from 1 to 104, and on each turn, players choose the most appropriate numbered card from their hand without knowing the numbered cards of other players. \n \
 	When all players have chosen their numbered cards for the round, the players open their cards at the same time. The game is played with four rows of cards, and each player will place the lowest number in all four rows of cards after each turn. Provided that the last card in each row is the last, the player must place the card he has played at the end of the row closest to the number but less than the number he has played. \n \
 	If the card is the sixth card in a row, the player must take the first five cards. If the player's number is less than the last number in any row, the player must choose a row and take all the numbers in that row. \n \
-	When all the cards in the hand are used up, each player adds up the penalty points (the number of bulls on each card) from the cards he took back, and the winner is the one with the least. Translated with www.DeepL.com/Translator (free version)" RESET);
+	When all the cards in the hand are used up, each player adds up the penalty points (the number of bulls on each card) from the cards he took back, and the winner is the one with the least." RESET);
 	printf("\n");
 	puts(GRN "----------------------------------" RESET);
 	puts(GRN "Cattle Heads of each Card Number :" RESET);
