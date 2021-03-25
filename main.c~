@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+#include "take6.h"
+
+int main()
+{
+	while( true )
+	{
+		system( "clear" );
+		puts( YEL "\t\t\t------------------------------------" RESET );
+		puts( YEL "\t\t\t ~~ Wellcome to Take6 誰是牛頭王 ~~ " RESET );
+		puts( YEL "\t\t\t------------------------------------" RESET );
+		putchar( '\n' );
+		puts( GRN "\t\t\tWhilch option do you wnat to choose :" RESET );
+		puts( BLU "\t\t\t         (1) Play game !" RESET );
+		puts( BLU "\t\t\t         (2) How to play ?" RESET );
+		puts( BLU "\t\t\t         (3) Exit" RESET );
+		putchar( '\n' );
+		int32_t input, easterEgg = 0;
+		printf( MAG "\t\t\tPlease take the option. ...> " RESET );
+		scanf( "%d", &input );
+		while( input != 1 && input != 2 && input != 3 )
+		{
+			puts( RED "\t\t\tWrong input !" RESET );
+			printf( MAG "\t\t\tPlease take the option within 1 ~ 3 ...> " RESET );
+			scanf( "%d", &input );
+		}
+		if( input == 1 )
+		{
+			sCard deck[DECK_SIZE] = {0};
+			setup( deck );
+
+			int32_t vs, com_num, hand_card_amount, mode;
+			menu( &vs, &com_num, &hand_card_amount, &mode, &easterEgg );
+
+			//printf( "mode = %d\n", mode );
+			//PAUSE; CLEAR_BUFFER;
+			game( deck, com_num, hand_card_amount, mode, easterEgg );
+		}
+		else if( input == 2 )
+		{
+			rule();
+		}
+		else
+		{
+			puts( YEL "\t\t\tGoodbye ~~" RESET );
+			printf( "\t\t\t" ); 
+			PAUSE;
+			CLEAR_BUFFER;
+			break;
+		}
+	}
+
+	return 0;
+}
