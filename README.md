@@ -53,6 +53,6 @@ When all the cards in the hand are used up, each player adds up the penalty poin
 <br>
 <div id = "reference">
 
-## Reference : <a href = "file:///D:/1-4-2-%E5%A4%A7%E5%9B%9B%E4%B8%8B/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88(%E4%BA%8C)/final-project.pdf">Take 6</a>
+## Reference : <a href = "https://drive.google.com/file/d/1VGUcrUOkHtLXIPLSu85LsNB6G2-sJMAH/view?usp=sharing">Take 6</a>
 
 </div>
