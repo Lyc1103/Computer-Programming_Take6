@@ -4,10 +4,7 @@
 > Date : 2021 / 3 / 25 <br>
 > List
 >
-> > <a href = "#description">Description</a><br>
-> > <a href = "#practicing">What I'm Practicing</a><br>
-> > <a href = "#rules">Take 6 Rules</a><br>
-> > <a href = "#reference">Reference</a><br>
+> > <a href = "#description">Description</a><br> > > <a href = "#practicing">What I'm Practicing</a><br> > > <a href = "#rules">Take 6 Rules</a><br> > > <a href = "#reference">Reference</a><br>
 
 <br>
 <div id = "description">
